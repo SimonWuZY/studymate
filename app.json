@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "小芽学习",
+    "slug": "sprout-study-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "sproutstudy",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F5F7F2",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F5F7F2"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sprout.study"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#F5F7F2"
+      },
+      "package": "com.sprout.study"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "允许小芽学习访问相册，以便上传题目照片。",
+          "cameraPermission": "允许小芽学习使用相机，以便拍摄题目。"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
