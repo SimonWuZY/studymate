@@ -1,6 +1,8 @@
 {
   "name": "sprout-study-app",
   "version": "1.0.0",
+  "description": "面向青少年的任务打卡、错题复习与成长奖励 Expo 学习助手",
+  "license": "MIT",
   "main": "expo-router/entry",
   "dependencies": {
     "@expo/vector-icons": "^15.0.2",
@@ -31,5 +33,13 @@
     "lint": "expo lint",
     "typecheck": "tsc --noEmit"
   },
-  "private": true
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonWuZY/studymate.git"
+  },
+  "homepage": "https://github.com/SimonWuZY/studymate#readme",
+  "bugs": {
+    "url": "https://github.com/SimonWuZY/studymate/issues"
+  }
 }
